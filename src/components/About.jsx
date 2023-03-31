@@ -24,6 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
 				className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
 			>
 				<img
+					loading="lazy"
 					src={icon}
 					alt="web-development"
 					className="w-16 h-16 object-contain"
@@ -37,7 +38,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
 	return (
-		<>
+		<div className="flex flex-col items-center text-center">
 			<motion.div variants={textVariant()}>
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -55,12 +56,12 @@ const About = () => {
 				journey takes me!
 			</motion.p>
 
-			<div className="mt-20 flex flex-wrap gap-10">
+			<div className="mt-20 flex flex-col sm:flex-row sm:flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard key={service.title} index={index} {...service} />
 				))}
 			</div>
-		</>
+		</div>
 	);
 };
 

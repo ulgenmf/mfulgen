@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import franz from "./franz.jpg";
+import dan from "./dan2.jpg";
+import catPic from "./catPic.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import istanbul from "./istanbul.jpg";
@@ -47,6 +50,8 @@ export {
 	backend,
 	creator,
 	mobile,
+	dan,
+	franz,
 	web,
 	github,
 	menu,
@@ -55,6 +60,7 @@ export {
 	redux2,
 	docker,
 	figma,
+	catPic,
 	git,
 	html,
 	javascript,

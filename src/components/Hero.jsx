@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { istanbul } from "../assets";
 
 const Hero = () => {
 	const [picHovered, setPicHovered] = useState(false);
@@ -40,15 +39,6 @@ const Hero = () => {
 							Istanbul
 						</span>
 					</p>
-					<img
-						src={istanbul}
-						alt="istanbul.jpg"
-						className={` h-[680px] w-5/6 rounded-xl  ${
-							picHovered
-								? "opacity-100 absolute  duration-500 z-20 "
-								: "opacity-0  absolute duration-500"
-						}  sm:flex hidden  `}
-					/>
 				</div>
 			</div>
 

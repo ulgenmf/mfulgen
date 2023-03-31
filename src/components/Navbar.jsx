@@ -44,6 +44,7 @@ const Navbar = () => {
 				>
 					<div className="flex items-center sm:hover:scale-105   duration-300 gap-2">
 						<img
+							loading="lazy"
 							src={
 								"https://www.pngmart.com/files/22/Crying-Cat-Meme-PNG-Isolated-Pic.png"
 							}
@@ -73,6 +74,7 @@ const Navbar = () => {
 
 				<div className="sm:hidden flex flex-1 justify-end items-center">
 					<img
+						loading="lazy"
 						src={toggle ? close : menu}
 						alt="menu"
 						className="w-[28px] h-[28px] object-contain"

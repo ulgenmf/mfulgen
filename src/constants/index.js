@@ -29,6 +29,8 @@ import {
 	library,
 	task,
 	redux2,
+	franz,
+	dan,
 } from "../assets";
 
 export const navLinks = [
@@ -83,10 +85,7 @@ const technologies = [
 		name: "React JS",
 		icon: reactjs,
 	},
-	{
-		name: "Redux Toolkit",
-		icon: redux,
-	},
+
 	{
 		name: "Tailwind CSS",
 		icon: tailwind,
@@ -179,8 +178,7 @@ const testimonials = [
 		name: "Dan McAtee",
 		designation: "Lead Instructor",
 		company: "DevHaus Leipzig",
-		image:
-			"https://devhausleipzig.de/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdan.22800191.png&w=384&q=75",
+		image: dan,
 	},
 
 	{
@@ -189,8 +187,7 @@ const testimonials = [
 		name: "Franz Wollang",
 		designation: "CoFounder",
 		company: "DevHaus Leipzig",
-		image:
-			"https://devhausleipzig.de/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffranz.d7ecd7ee.jpg&w=3840&q=75",
+		image: franz,
 	},
 	{
 		testimonial:
