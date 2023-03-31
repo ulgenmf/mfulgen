@@ -56,7 +56,7 @@ const About = () => {
 				journey takes me!
 			</motion.p>
 
-			<div className="mt-20 flex flex-col sm:flex-row sm:flex-wrap gap-10">
+			<div className="mt-20 flex flex-col items-center sm:flex-row sm:flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard key={service.title} index={index} {...service} />
 				))}
