@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
 
 	return (
 		<Canvas
-			className="sm:block hidden"
+			className=" hover:cursor-pointer"
 			frameloop="demand"
 			shadows
 			dpr={[1, 2]}

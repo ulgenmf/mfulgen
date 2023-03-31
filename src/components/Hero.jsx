@@ -23,24 +23,20 @@ const Hero = () => {
 	return (
 		<section className="relative w-full   h-screen mx-auto">
 			<div
-				className={`${styles.paddingX} absolute  mx-w-7xl  mx-auto  flex flex-row  gap-5 items-start inset-0 top-[120px]`}
+				className={`${styles.paddingX} absolute    mx-w-7xl  mx-auto  flex flex-row  gap-5 items-start inset-0 top-[120px]`}
 			>
 				<div className="flex flex-col justify-center items-center mt-5">
 					<div className="w-5 h-5 rounded-full bg-purple-700" />
 					<div className="w-1 sm:h-80 h-40 violet-gradient" />
 				</div>
-				<div className={`"sm:absolute  h-52  left-28"`}>
+				<div className={`"sm:absolute    h-52  left-28"`}>
 					{" "}
 					<h1 className={`${styles.heroHeadText} text-white`}>
 						Hi! I am<span className="text-purple-600"> Furkan</span>
 					</h1>
-					<p className={`${styles.heroSubText}  mt-2 text-gray-100`}>
-						A junior software developer from
-						<span
-							onMouseEnter={() => setPicHovered(!picHovered)}
-							onMouseLeave={() => setPicHovered(!picHovered)}
-							className=" ml-2 sm:cursor-pointer absolute sm:hover:text-white z-10 text-blue-200 sm:underline items underline-offset-4"
-						>
+					<p className={`${styles.heroSubText} flex flex-wrap  mt-2 text-gray-100`}>
+						A junior software developer from{" "}
+						<span className="text-blue-400 ml-2 underline underline-offset-8">
 							Istanbul
 						</span>
 					</p>
