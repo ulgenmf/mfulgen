@@ -34,7 +34,7 @@ const Hero = () => {
 						Hi! I am<span className="text-purple-600"> Furkan</span>
 					</h1>
 					<p className={`${styles.heroSubText} flex flex-wrap  mt-2 text-gray-100`}>
-						A junior software developer from{" "}
+						A junior software developer based in{" "}
 						<span className="text-blue-400 ml-2 underline underline-offset-8">
 							Istanbul
 						</span>
